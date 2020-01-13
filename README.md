@@ -3,7 +3,13 @@
 Generates simulation for STAR Forward detectors
 
 ### Usage
-Clone the repo and `cd` into it. Make sure that `run.sh` is executable (`chmod +x run.sh`):
+Clone the repo and `cd` into it.
+```sh
+git clone https://github.com/jdbrice/star-fwd-sim.git
+cd star-fwd-sim
+```
+
+Now you cen generate simulation with:
 ```
 ./run.sh
 ```
