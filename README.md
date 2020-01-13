@@ -16,6 +16,8 @@ Now you cen generate simulation with:
 This runs the `genfzd` script, which runs `testg.kumac`, inside a docker container capable of running `starsim`.
 It will run starsim and produce a file `testg.fzd` in your current directory.  
 
+
+### Details
 genfzd sets up the environment and then runs:
 
 ```
