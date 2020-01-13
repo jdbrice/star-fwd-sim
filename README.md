@@ -3,7 +3,7 @@
 Generates simulation for STAR Forward detectors
 
 ### Usage
-Make sure that `run.sh` is executable (`chmod +x run.sh`):
+Clone the repo and `cd` into it. Make sure that `run.sh` is executable (`chmod +x run.sh`):
 ```
 ./run.sh
 ```
