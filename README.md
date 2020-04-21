@@ -3,13 +3,21 @@
 Generates simulation for STAR Forward detectors
 
 ### Usage
-Clone the repo and `cd` into it. Make sure that `run.sh` is executable (`chmod +x run.sh`):
+Clone the repo and `cd` into it.
+```sh
+git clone https://github.com/jdbrice/star-fwd-sim.git
+cd star-fwd-sim
+```
+
+Now you cen generate simulation with:
 ```
 ./run.sh
 ```
 This runs the `genfzd` script, which runs `testg.kumac`, inside a docker container capable of running `starsim`.
 It will run starsim and produce a file `testg.fzd` in your current directory.  
 
+
+### Details
 genfzd sets up the environment and then runs:
 
 ```
