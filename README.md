@@ -40,3 +40,22 @@ The options include:
 `etamn` - minimum eta  
 `etamx` - maximum eta  
 
+
+### Modifying Geometry
+The `FstGeom.xml` file can be modified. In order for the effect to be acknowledged:
+
+1. Launch an interactive container
+```sh
+./dev.sh
+```
+
+2. Build the new geometry
+```sh
+./build.sh
+```
+
+3. Generate the simulation file with the new geometry
+```sh
+./genfzd
+```
+
