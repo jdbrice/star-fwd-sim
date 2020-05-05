@@ -52,9 +52,9 @@ The options include:
 ### Modifying Geometry
 The `FstGeom.xml` file can be modified. The z-location of the Si disks can be changed by modifying lines `704-706`:
 ```xml
-    <Placement block="FSTD" in="FSTM" x="0.0" y="0.0" z="140.0-zcenter" ncopy="4" />
-    <Placement block="FSTD" in="FSTM" x="0.0" y="0.0" z="154.0-zcenter" ncopy="5" />
-    <Placement block="FSTD" in="FSTM" x="0.0" y="0.0" z="168.0-zcenter" ncopy="6" />
+704:    <Placement block="FSTD" in="FSTM" x="0.0" y="0.0" z="140.0-zcenter" ncopy="4" />
+705:    <Placement block="FSTD" in="FSTM" x="0.0" y="0.0" z="154.0-zcenter" ncopy="5" />
+706:    <Placement block="FSTD" in="FSTM" x="0.0" y="0.0" z="168.0-zcenter" ncopy="6" />
 ```
 
 In order for the effect to be acknowledged:
