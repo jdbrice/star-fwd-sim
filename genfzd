@@ -2,4 +2,4 @@
 source /usr/local/bin/thisroot.sh
 source /tmp/star-install/bin/thisstar.sh
 
-starsim -w 0 -b testg.kumac nevents=5 ntrack=1 etamn=2.4 etamx=4.1 ptmn=1 ptmx=10.0 g3id=8
+starsim -w 0 -b testg.kumac g3id=6 nevents=5000 ntrack=1 etamn=2.4 etamx=4.1 ptmn=0.2 ptmx=5.0
