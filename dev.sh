@@ -1,1 +1,1 @@
-docker run --rm -ti -w /tmp/fwd-sim/ -v `pwd`:/tmp/fwd-sim jdbburg/star-sw-debug-build bash
+docker run --rm -ti -w /tmp/fwd-sim/ -v `pwd`:/tmp/fwd-sim jdbburg/star-sw-debug-build:v041820 bash
