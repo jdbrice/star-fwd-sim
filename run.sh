@@ -1,1 +1,1 @@
-docker run --rm -w /tmp/fwd-sim/ -v `pwd`:/tmp/fwd-sim starbnl/star-sw:latest-Debug bash genfzd
+docker run --rm -w /tmp/fwd-sim/ -v `pwd`:/tmp/fwd-sim jdbburg/star-sw-debug bash genfzd
